@@ -12,11 +12,19 @@ const ProjectLink = ({
 	imageUrl,
 	technologies,
 	dateCompleted,
-	openNewPage
+	openNewPage,
 }) => {
+	const tech = technologies.map((tech, i) => <li key={i}>{tech}</li>);
 	return (
-	<article className="project-container" onClick={() => {openNewPage(gitHub)}}>
+		<article
+			className="project-container"
+			onClick={() => {
+				openNewPage(gitHub);
+			}}
+		>
 			<h3>{name}</h3>
+			<p>{imageUrl}</p>
+			<ul>{tech}</ul>
 			<p>{dateCompleted}</p>
 		</article>
 	);
