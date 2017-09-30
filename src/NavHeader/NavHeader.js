@@ -6,7 +6,13 @@ const NavHeader = () => {
 	return (
 		<header>
 			<div className="nav-logo">
+				<h1>
+					David Becker
+				</h1>
 				<img src="/" alt="David Becker Logo"/>
+				<h2>
+					Software Developer
+				</h2>
 			</div>
 			<div className="nav-link-container">
 				<Link to="/" className="nav-link">Home</Link>
