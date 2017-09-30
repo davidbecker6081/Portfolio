@@ -11,6 +11,7 @@ const ProjectLink = ({
 	gitHub,
 	imageUrl,
 	technologies,
+	testing,
 	dateCompleted,
 	openNewPage,
 }) => {

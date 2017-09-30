@@ -5,6 +5,7 @@ export const getProjectData = () => {
 			gitHub: 'www.github.com/1',
 			imageUrl: 'www.image.com/1',
 			technologies: ['React', 'Redux', 'MomentJS'],
+			testing: 'Enzyme/Jest',
 			dateCompleted: 'August 28, 2017',
 		},
 		{
@@ -12,6 +13,7 @@ export const getProjectData = () => {
 			gitHub: 'www.github.com/2',
 			imageUrl: 'www.image.com/2',
 			technologies: ['React', 'Redux', 'MomentJS, React Router'],
+			testing: 'Enzyme/Jest',
 			dateCompleted: 'September 20, 2017',
 		},
 	];
