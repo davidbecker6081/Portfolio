@@ -1,6 +1,15 @@
 /*USE GRID!*/
 
-section {
+.projects-wrapper {
+  width: 100%;
+}
+
+.projects-wrapper h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.projects-display {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 2em;

@@ -5,7 +5,6 @@ import { getProjectData } from '../HelperData/helperProjects';
 // import { Link } from 'react-router-dom';
 
 class Projects extends Component {
-
 	renderProjects() {
 		const projectData = getProjectData();
 		return projectData.map((project, i) => (
@@ -14,7 +13,14 @@ class Projects extends Component {
 	}
 
 	render() {
-		return <section>{this.renderProjects()}</section>;
+		return (
+			<div className="projects-wrapper">
+				<h2>Code</h2>
+				<section className="projects-display">
+					{this.renderProjects()}
+				</section>
+			</div>
+		);
 	}
 }
 
