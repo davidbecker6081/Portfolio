@@ -1,9 +1,5 @@
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
-/*#C0392B - highlight color?*/
-/*#1E88E5 - background color/main txt*/
-/*#FFC300 - hover color?*/
-/*#FFFFFF - nav text/main background*/
 
 /*#17252A - text/hover
 #2B7A78 - highlight
@@ -20,9 +16,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
   width: 25%;
   background-color: #FEFFFF;
-  box-shadow: 3px 0px 5px rgba(0,0,0,0.6);
+  box-shadow: 0px 0px 6px 0px rgba(23,37,42, 0.5);
+  z-index: 9999;
 }
 
 .nav-logo {
@@ -45,7 +43,7 @@ header {
 h1,
 h2 {
   margin: 0;
-  color: #3AAFA9;
+  color: #17252A;
   text-align: center;
 }
 
@@ -54,7 +52,7 @@ h1 {
 }
 
 h2 {
-  color: #17252A;
+  color: #3AAFA9;
   font-size: 25px;
 }
 
@@ -63,7 +61,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 85%;
+  margin-bottom: 80%;
   width: 100%;
 }
 
@@ -130,10 +128,10 @@ background-image: url('../assets/turing-logo.png')
 }
 
 .quick-contact a:hover {
-  background-color: #17252A;
+  opacity: 0.7;
 }
 
 .quick-contact p {
-  color: #17252A;
+  color: #3AAFA9;
   font-size: 18px;
 }
