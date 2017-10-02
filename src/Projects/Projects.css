@@ -1,11 +1,21 @@
 /*USE GRID!*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+
+/*#17252A - text/hover
+#2B7A78 - highlight
+#3AAFA9 - text
+#DEF2F1 - highlight
+#FEFFFF - header text*/
 
 .projects-wrapper {
   width: 100%;
 }
 
 .projects-wrapper h2 {
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 30px;
+  color: #FEFFFF;
   font-size: 40px;
 }
 

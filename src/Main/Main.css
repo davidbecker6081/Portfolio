@@ -1,3 +1,9 @@
+/*#17252A - text
+#2B7A78 - highlight
+#3AAFA9 - background
+#DEF2F1 - highlight
+#FEFFFF - header text*/
+
 .main-container {
   display: flex;
   align-items: center;
@@ -7,12 +13,15 @@
 .main-txt {
   margin: 0;
   width: 70%;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 1.1px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .main-photo {
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+  border-radius: 50%;
   height: 200px;
   width: 200px;
 }

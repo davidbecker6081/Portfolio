@@ -23,14 +23,11 @@ const NavHeader = () => {
 			</div>
 			<div className="quick-contact">
 				<div className="quick-contact-links">
-					<a href="default.asp" target="_blank">
-						<img src="/" alt="Git" />
+					<a href="https://github.com/davidbecker6081" target="_blank" rel="noopener noreferrer">
 					</a>
-					<a href="default.asp" target="_blank">
-						<img src="/" alt="LI" />
+					<a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
 					</a>
-					<a href="default.asp" target="_blank">
-						<img src="/" alt="Tur" />
+					<a href="https://www.turing.io/alumni/david-becker" target="_blank" rel="noopener noreferrer">
 					</a>
 				</div>
 				<p>

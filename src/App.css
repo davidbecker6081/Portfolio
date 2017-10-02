@@ -6,14 +6,22 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   padding: 0 20px;
   width: 75%;
-  color: #1E88E5;
+  background-color: #3AAFA9;
+  color: #FEFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
-/*font-family: 'Open Sans', sans-serif;*/
-/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif; 300 text */
+/*font-family: 'Raleway', sans-serif; 900 headings*/
 /*#C0392B - highlight color?*/
 /*#1E88E5 - background color/main txt*/
 /*#FFC300 - hover color?*/
 /*#FFFFFF - nav text/main background*/
+
+/*#17252A - text/hover
+#2B7A78 - highlight
+#3AAFA9 - text
+#DEF2F1 - highlight
+#FEFFFF - header text*/
