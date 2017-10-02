@@ -86,7 +86,8 @@
   font-size: 21px;
   font-weight: 700;
   margin-bottom: 15px;
-  color: #17252A;
+  color: #3AAFA9;
+  border-bottom: 1px solid #17252A;
 }
 
 .info-overlay ul {
@@ -122,6 +123,8 @@
 }
 
 .date-complete {
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  font-weight: 300;
   text-align: center;
 }
