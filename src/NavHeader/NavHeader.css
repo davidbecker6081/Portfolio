@@ -5,13 +5,23 @@
 /*#FFC300 - hover color?*/
 /*#FFFFFF - nav text/main background*/
 
+/*#17252A - text/hover
+#2B7A78 - highlight
+#3AAFA9 - text
+#DEF2F1 - highlight
+#FEFFFF - header text*/
+
+* {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 25%;
-  padding: 20px 0;
-  background-color: #1E88E5;
+  background-color: #FEFFFF;
   box-shadow: 3px 0px 5px rgba(0,0,0,0.6);
 }
 
@@ -23,6 +33,7 @@ header {
   /*height: 150px;
   width: 150px;*/
   margin-bottom: 45%;
+  margin-top: 20px;
 }
 
 .nav-logo img {
@@ -34,16 +45,17 @@ header {
 h1,
 h2 {
   margin: 0;
-  color: #FFC300;
+  color: #3AAFA9;
   text-align: center;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 22px;
+  color: #17252A;
+  font-size: 25px;
 }
 
 .nav-link-container {
@@ -62,15 +74,15 @@ h2 {
   margin: 0 2px 15px 0;
   width: 100%;
   text-decoration: none;
-  color: #FFF;
+  color: #3AAFA9;
   font-size: 30px;
   letter-spacing: 1.1px;
 }
 
 .nav-link:hover {
-  border-right: 4px solid #FFC300;
+  border-right: 4px solid #17252A;
   border-radius: 1px;
-  color: #FFC300;
+  color: #17252A;
   font-size: 32px;
   transition: 1.3s;
 }
@@ -95,25 +107,33 @@ h2 {
   letter-spacing: 1.1px;
 }
 
-.quick-contact a,
-.quick-contact img {
+.quick-contact a {
   height: 50px;
   width: 50px;
-}
-
-.quick-contact a {
-  color: #FFF;
-  background-color: #1E88E5;
   box-shadow: 0px 0px 5px 0px #FFF;
   text-decoration: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.quick-contact a:nth-of-type(1) {
+  background-image: url('../assets/github-logo-silhouette-in-a-square.png')
+}
+
+.quick-contact a:nth-of-type(2) {
+background-image: url('../assets/linkedin (1).png')
+}
+
+.quick-contact a:nth-of-type(3) {
+background-image: url('../assets/turing-logo.png')
+}
 
 .quick-contact a:hover {
-  background-color: #FFC300;
+  background-color: #17252A;
 }
 
 .quick-contact p {
-  color: #FFC300;
+  color: #17252A;
   font-size: 18px;
 }
