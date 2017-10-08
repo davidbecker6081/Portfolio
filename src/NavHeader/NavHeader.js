@@ -9,7 +9,7 @@ const NavHeader = () => {
 				<h1>
 					David Becker
 				</h1>
-				<img src="/" alt="David Becker Logo"/>
+				<div className="david-logo"></div>
 				<h2>
 					Software Developer
 				</h2>
@@ -18,7 +18,6 @@ const NavHeader = () => {
 				<Link to="/" className="nav-link">Home</Link>
 				<Link to="/about-me" className="nav-link">About Me</Link>
 				<Link to="/projects" className="nav-link">Projects</Link>
-				<Link to="/blog" className="nav-link">Blog</Link>
 				<Link to="/contact" className="nav-link">Contact</Link>
 			</div>
 			<div className="quick-contact">
