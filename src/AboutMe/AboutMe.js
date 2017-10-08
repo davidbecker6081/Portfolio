@@ -16,7 +16,7 @@ const AboutMe = () => {
 			<p className="about-me-text">Web and Software development are the perfect combination and culmination of me. With my background in music and architecture, I develop with a unique perspective; It helps me solve problems in creative ways. A skill I have developed in both my musical and climbing careers, the process of learning new things, going from utter confusion to deep understanding, is what attracts me most about development. This practice drives everything I do. I consider myself highly adaptable because of it.</p>
 
 			<p className="about-me-text">Currently, I’m finishing up my final 6-week module out of 4 in the Front-End Engineering program at Turing School of Software and Design. Turing has re-shaped who I am and made me better for it in all areas of life. While I keep my head above water, absorbing everything I can about code, I am also working with my band, Mad Wallace, to produce an EP and make a name for ourselves in Denver. Check us out here:
-				<a href="http://madwallace.com/" target="_blank">Mad Wallace</a>.
+				<a className="about-me-link" href="http://madwallace.com/" target="_blank">Mad Wallace</a>.
 					Want to know more?
 				<Link to="/contact" className="about-me-link">Contact Me</Link>
 			</p>
