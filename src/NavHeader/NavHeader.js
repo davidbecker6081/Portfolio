@@ -25,7 +25,7 @@ const NavHeader = () => {
 				<div className="quick-contact-links">
 					<a href="https://github.com/davidbecker6081" target="_blank" rel="noopener noreferrer">
 					</a>
-					<a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+					<a href="https://www.linkedin.com/in/david-a-becker/" target="_blank" rel="noopener noreferrer">
 					</a>
 					<a href="https://www.turing.io/alumni/david-becker" target="_blank" rel="noopener noreferrer">
 					</a>
