@@ -19,7 +19,7 @@ const ProjectLink = ({
 
 	return (
 		<FadeIn>
-			<a href="default.asp" target="_blank" className="project-link">
+			<a href={gitHub} target="_blank" className="project-link">
 				<article className="project-container">
 					<h3>{name}</h3>
 					<div className="info-overlay">
