@@ -93,6 +93,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  width: 60%;
 }
 
 .quick-contact-links {
@@ -163,10 +164,6 @@ background-image: url('../assets/turing-logo.png')
     font-size: 47px;
   }
 
-  .quick-contact {
-    width: 60%;
-  }
-
   .quick-contact a {
     height: 70px;
     width: 70px;
@@ -179,7 +176,36 @@ background-image: url('../assets/turing-logo.png')
 }
 
 @media screen and (max-width: 1650px) {
+
   h1 {
-    font-size: 10px;
+    font-size: 50px;
   }
+
+  .david-logo {
+    height: 180px;
+    width: 170px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .nav-link {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+
+  .nav-link:hover {
+    font-size: 42px;
+  }
+
+  .quick-contact a {
+    height: 60px;
+    width: 60px;
+  }
+
+  .quick-contact p {
+    font-size: 25px;
+  }
+
 }
