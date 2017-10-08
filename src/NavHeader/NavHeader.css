@@ -9,7 +9,7 @@
 
 * {
   font-family: 'Raleway', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 header {
@@ -34,10 +34,14 @@ header {
   margin-top: 20px;
 }
 
-.nav-logo img {
+.david-logo {
   height: 150px;
   width: 150px;
   margin-bottom: 10px;
+  background-image: url('../assets/DBlogo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -52,7 +56,6 @@ h1 {
 }
 
 h2 {
-  color: #3AAFA9;
   font-size: 25px;
 }
 
@@ -69,7 +72,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 2px 15px 0;
+  margin: 0 2px 20px 0;
   width: 100%;
   text-decoration: none;
   color: #3AAFA9;

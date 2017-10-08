@@ -9,7 +9,7 @@ const NavHeader = () => {
 				<h1>
 					David Becker
 				</h1>
-				<img src="/" alt="David Becker Logo"/>
+				<div className="david-logo"></div>
 				<h2>
 					Software Developer
 				</h2>
