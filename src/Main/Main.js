@@ -7,10 +7,10 @@ const Main = () => {
 		<section className="main-container">
 			<div className="main-txt">
 				<p className="main-heading">WELCOME TO MY PORTFOLIO WEBSITE.</p>
-				<p>Take a look around</p>
-				<p>Check out some of my projects</p>
-				<p>Learn about what I do outside of development</p>
-				<p>Contact me</p>
+				<p>Take a look around.</p>
+				<p>Check out some of my projects.</p>
+				<p>Learn about what I do outside of development.</p>
+				<p>Contact me.</p>
 			</div>
 			<div src="/" alt="image here" className="main-photo"/>
 		</section>
