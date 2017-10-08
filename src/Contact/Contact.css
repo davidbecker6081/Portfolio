@@ -30,7 +30,7 @@ form {
 
 input,
 textarea {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   padding: 6px 6px 6px 10px;
   width: 85%;
   border: 2px solid #3AAFA9;
@@ -41,24 +41,25 @@ textarea {
 
 input:nth-of-type(2) {
   font-size: 24px;
-  margin-bottom: 40px;
 }
 
 textarea {
-  height: 100px;
+  height: 120px;
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-button {
+input[type="submit"] {
   padding: 10px 25px;
   background: none;
   border: 2px solid #3AAFA9;
   color: #17252A;
   font-size: 30px;
+  outline-style: none;
+  width: 50%;
 }
 
-button:hover {
+input[type="submit"]:hover {
   cursor: pointer;
   color: #FEFFFF;
   background-color: #3AAFA9;

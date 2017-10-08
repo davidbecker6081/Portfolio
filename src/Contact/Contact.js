@@ -7,9 +7,9 @@ const Contact = () => {
 			<h2>Contact Me</h2>
 			<form method="POST" action="http://formspree.io/david@beckersite.com">
 				<input type="email" name="email" placeholder="Your email" />
-				<input type="text" name="_subject" placeholder="Subject" />
+				<input type="text" name="subject" placeholder="Subject" />
 				<textarea name="message" placeholder="Your message" />
-				<button type="submit">Send</button>
+				<input type="submit" value="Send" />
 			</form>
 		</section>
 	);
