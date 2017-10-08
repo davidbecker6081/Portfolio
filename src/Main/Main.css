@@ -58,6 +58,7 @@
 }
 
 .main-photo {
+  display: none;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
   height: 200px;
   width: 200px;
