@@ -15,7 +15,7 @@
 .projects-wrapper h2 {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 30px;
-  color: #FEFFFF;
+  color: #17252A;
   font-size: 40px;
 }
 
@@ -26,10 +26,3 @@
   grid-column-gap: 2em;
   width: 100%;
 }
-
-/*font-family: 'Open Sans', sans-serif;*/
-/*font-family: 'Raleway', sans-serif;*/
-/*#C0392B - highlight color?*/
-/*#1E88E5 - background color/main txt*/
-/*#FFC300 - hover color?*/
-/*#FFFFFF - nav text/main background*/
