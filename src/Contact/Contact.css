@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 60vh;
+  height: 70vh;
   width: 95%;
   background-color: #FEFFFF;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
@@ -30,18 +30,24 @@ form {
 
 input,
 textarea {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   padding: 6px 6px 6px 10px;
-  width: 80%;
+  width: 85%;
   border: 2px solid #3AAFA9;
   color: #17252A;
   font-size: 26px;
   outline-style: none;
 }
 
+input:nth-of-type(2) {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 textarea {
   height: 100px;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 button {
