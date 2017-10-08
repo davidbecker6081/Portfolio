@@ -13,8 +13,8 @@
 }
 
 .about-me-text:nth-of-type(1) {
+  color: #17252A;
   font-size: 25px;
-  font-weight: 700;
 }
 
 .about-me-link {
