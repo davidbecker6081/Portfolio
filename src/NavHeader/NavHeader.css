@@ -253,3 +253,47 @@ background-image: url('../assets/turing-logo.png')
   }
 
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1360px) {
+  /*1016px to 750px*/
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .nav-logo {
+    margin-bottom: 85%;
+  }
+
+  .david-logo {
+    height: 130px;
+    width: 120px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .nav-link-container {
+    margin-bottom: 75%;
+  }
+
+  .nav-link {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .nav-link:hover {
+    font-size: 32px;
+  }
+
+  .quick-contact a {
+    height: 40px;
+    width: 40px;
+  }
+
+  .quick-contact p {
+    font-size: 18px;
+  }
+
+}
