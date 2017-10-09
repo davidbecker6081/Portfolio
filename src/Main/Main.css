@@ -22,7 +22,6 @@
   font-size: 22px;
   letter-spacing: 1.1px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
   animation-name: fade-in;
   animation-duration: 2s;
   animation-direction: normal;
@@ -32,15 +31,34 @@
   color: #17252A;
   font-size: 30px;
   font-weight: 900;
-  margin-bottom: 5px;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .main-txt p:nth-of-type(2) {
+  margin-bottom: 100px;
   margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.main-txt p:nth-of-type(3) {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.main-txt p:nth-of-type(4) {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .main-txt p:nth-of-type(5) {
+  margin-top: 0;
   margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 @keyframes fade-in {
@@ -53,11 +71,8 @@
   }
 }
 
-.main-txt p {
-
-}
-
 .main-photo {
+  display: none;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
   height: 200px;
   width: 200px;
@@ -65,4 +80,82 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 2050px) {
+
+  .main-heading {
+    font-size: 70px;
+  }
+
+  .main-txt p:nth-of-type(2) {
+    font-size: 30px;
+  }
+
+  .main-txt p:nth-of-type(3) {
+    font-size: 45px;
+  }
+
+  .main-txt p:nth-of-type(4) {
+    font-size: 45px;
+  }
+
+  .main-txt p:nth-of-type(5) {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 1651px) and (max-width: 2099px) {
+/*1247px and up*/
+
+  .main-heading {
+    font-size: 54px;
+  }
+
+  .main-txt p:nth-of-type(2) {
+    font-size: 20px;
+  }
+
+  .main-txt p:nth-of-type(3),
+  .main-txt p:nth-of-type(4),
+  .main-txt p:nth-of-type(5) {
+    font-size: 35px;
+  }
+
+}
+
+
+@media screen and (max-width: 1650px) {
+  /*1247px to 1016px*/
+  .main-heading {
+    font-size: 45px;
+  }
+
+  .main-txt p:nth-of-type(2) {
+    font-size: 20px;
+  }
+
+  .main-txt p:nth-of-type(3),
+  .main-txt p:nth-of-type(4),
+  .main-txt p:nth-of-type(5) {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1360px) {
+  /*1016px to 750px*/
+
+  .main-heading {
+    font-size: 40px;
+  }
+
+  .main-txt p:nth-of-type(2) {
+    font-size: 18px;
+  }
+
+  .main-txt p:nth-of-type(3),
+  .main-txt p:nth-of-type(4),
+  .main-txt p:nth-of-type(5) {
+    font-size: 26px;
+  }
 }

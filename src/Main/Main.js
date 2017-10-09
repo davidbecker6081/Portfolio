@@ -2,15 +2,18 @@ import React from 'react';
 import './Main.css';
 // import { Link } from 'react-router-dom';
 
-const Main = () => {
+const Main = ({ props, checkCurrentPage }) => {
+
+	checkCurrentPage(props.location.pathname)
+
 	return (
 		<section className="main-container">
 			<div className="main-txt">
 				<p className="main-heading">WELCOME TO MY PORTFOLIO WEBSITE.</p>
-				<p>Take a look around</p>
-				<p>Check out some of my projects</p>
-				<p>Learn about what I do outside of development</p>
-				<p>Contact me</p>
+				<p>Take a look around.</p>
+				<p>Check out some of my projects.</p>
+				<p>Learn about what I do outside of development.</p>
+				<p>Contact me.</p>
 			</div>
 			<div src="/" alt="image here" className="main-photo"/>
 		</section>
