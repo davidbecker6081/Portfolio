@@ -178,7 +178,7 @@ background-image: url('../assets/turing-logo.png')
 @media screen and (max-width: 1650px) {
 
   h1 {
-    font-size: 50px;
+    font-size: 47px;
   }
 
   .david-logo {
@@ -206,6 +206,50 @@ background-image: url('../assets/turing-logo.png')
 
   .quick-contact p {
     font-size: 25px;
+  }
+
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1660px) {
+  /*1247px to 1016px*/
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .nav-logo {
+    margin-bottom: 85%;
+  }
+
+  .david-logo {
+    height: 160px;
+    width: 150px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  .nav-link-container {
+    margin-bottom: 75%;
+  }
+
+  .nav-link {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+
+  .nav-link:hover {
+    font-size: 38px;
+  }
+
+  .quick-contact a {
+    height: 50px;
+    width: 50px;
+  }
+
+  .quick-contact p {
+    font-size: 20px;
   }
 
 }
