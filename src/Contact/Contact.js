@@ -1,7 +1,8 @@
 import React from 'react';
 import './Contact.css';
 
-const Contact = () => {
+const Contact = ({ props, checkCurrentPage }) => {
+	checkCurrentPage(props.location.pathname)
 	return (
 		<section className="contact-form-container">
 			<h2>Contact Me</h2>
