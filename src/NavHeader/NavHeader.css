@@ -88,12 +88,19 @@ h2 {
   transition: 1.3s;
 }
 
-.current {
+.active {
   border-right: 4px solid #17252A;
   border-radius: 1px;
   color: #17252A;
   font-size: 32px;
 }
+
+/*.current {
+  border-right: 4px solid #17252A;
+  border-radius: 1px;
+  color: #17252A;
+  font-size: 32px;
+}*/
 
 .quick-contact {
   display: flex;

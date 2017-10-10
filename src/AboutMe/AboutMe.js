@@ -2,8 +2,8 @@ import React from 'react';
 import './AboutMe.css';
 import { Link } from 'react-router-dom';
 
-const AboutMe = ({ props, checkCurrentPage }) => {
-	checkCurrentPage(props.location.pathname)
+const AboutMe = () => {
+
 	return (
 		<section className="about-me-container">
 			<p className="about-me-text">Who am I, you ask? Let me tell you all about ME.</p>

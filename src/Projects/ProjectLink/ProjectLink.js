@@ -16,11 +16,14 @@ const ProjectLink = ({
 	dateCompleted,
 }) => {
 	const tech = technologies.map((tech, i) => <li key={i}>{tech}</li>);
+	const styles = {
+		backgroundImage: `url(${imageUrl})`
+	}
 
 	return (
 		<FadeIn>
 			<a href={gitHub} target="_blank" className="project-link">
-				<article className="project-container">
+				<article className="project-container" style={styles}>
 					<h3>{name}</h3>
 					<div className="info-overlay">
 						<h4>{name}</h4>

@@ -5,9 +5,6 @@ import { getProjectData } from '../HelperData/helperProjects';
 // import { Link } from 'react-router-dom';
 
 class Projects extends Component {
-	constructor(props) {
-		super()
-	}
 
 	renderProjects() {
 		const projectData = getProjectData();
@@ -17,10 +14,6 @@ class Projects extends Component {
 	}
 
 	render() {
-		const { checkCurrentPage } = this.props;
-		const { pathname } = this.props.props.location
-		checkCurrentPage(pathname)
-
 		return (
 			<div className="projects-wrapper">
 				<h2>Code</h2>

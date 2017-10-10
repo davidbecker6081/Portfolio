@@ -2,9 +2,7 @@ import React from 'react';
 import './Main.css';
 // import { Link } from 'react-router-dom';
 
-const Main = ({ props, checkCurrentPage }) => {
-
-	checkCurrentPage(props.location.pathname)
+const Main = () => {
 
 	return (
 		<section className="main-container">

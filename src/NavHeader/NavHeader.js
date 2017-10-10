@@ -1,12 +1,8 @@
 import React from 'react';
 import './NavHeader.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavHeader = ({ currentPage }) => {
-	const currentHome = currentPage === '/' ? 'current' : '';
-	const currentAbout = currentPage === '/about-me' ? 'current' : '';
-	const currentProjects = currentPage === '/projects' ? 'current' : '';
-	const currentContact = currentPage === '/contact' ? 'current' : '';
 
 	return (
 		<header>
@@ -16,18 +12,18 @@ const NavHeader = ({ currentPage }) => {
 				<h2>Software Developer</h2>
 			</div>
 			<div className="nav-link-container">
-				<Link to="/" className={`nav-link ${currentHome}`}>
+				<NavLink exact to="/" className={'nav-link'}>
 					Home
-				</Link>
-				<Link to="/about-me" className={`nav-link ${currentAbout}`}>
+				</NavLink>
+				<NavLink exact to="/about-me" className={'nav-link'}>
 					About Me
-				</Link>
-				<Link to="/projects" className={`nav-link ${currentProjects}`}>
+				</NavLink>
+				<NavLink exact to="/projects" className={'nav-link'}>
 					Projects
-				</Link>
-				<Link to="/contact" className={`nav-link ${currentContact}`}>
+				</NavLink>
+				<NavLink exact to="/contact" className={'nav-link'}>
 					Contact
-				</Link>
+				</NavLink>
 			</div>
 			<div className="quick-contact">
 				<div className="quick-contact-links">
