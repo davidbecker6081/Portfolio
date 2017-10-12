@@ -22,25 +22,22 @@ const ProjectLink = ({
 
 	return (
 		<FadeIn>
-			<a href={gitHub} target="_blank" className="project-link">
+			<div className="project-link">
 				<article className="project-container" style={styles}>
 					<h3>{name}</h3>
 					<div className="info-overlay">
 						<h4>{name}</h4>
+						<a className="project-live-link" href={gitHub} target="_blank">GitHub</a>
+						<a className="project-live-link" href={gitHub} target="_blank">Live</a>
 						<div className="project-tech-container">
-							Built with:
 							<div className="project-tech">
 								<ul>{tech}</ul>
 								<p>{testing}</p>
 							</div>
 						</div>
-						<p className="date-complete">
-							Completed: <br />
-							{dateCompleted}
-						</p>
 					</div>
 				</article>
-			</a>
+			</div>
 		</FadeIn>
 	);
 };

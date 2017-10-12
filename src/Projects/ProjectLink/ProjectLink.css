@@ -49,6 +49,27 @@
   text-align: center;
 }
 
+.project-live-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #17252A;
+  transition: 1s;
+  margin-bottom: 5px;
+}
+
+.project-live-link:nth-of-type(2) {
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+  border-bottom: 1px solid #17252A;
+}
+
+.project-live-link:hover {
+  font-size: 19px;
+  cursor: pointer;
+  color: #2B7A78;
+}
+
 @keyframes slide-down {
   0% {
     bottom: 50px;
@@ -79,7 +100,7 @@
   align-items: center;
   justify-content: center;
   /*transition: all 2s ease-in;*/
-  height: 80%;
+  height: 85%;
   width: 100%;
   animation-name: slide-down;
   animation-duration: 1s;
@@ -95,9 +116,8 @@
 .info-overlay h4 {
   font-size: 21px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   color: #3AAFA9;
-  border-bottom: 1px solid #17252A;
 }
 
 .info-overlay ul {
@@ -125,16 +145,9 @@
 .project-tech-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 15px;
   width: 100%;
   font-size: 15px;
   font-weight: 400;
-}
-
-.date-complete {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  text-align: center;
 }
