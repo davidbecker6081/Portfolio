@@ -28,7 +28,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 45%;
+  margin-bottom: 15vh;
   margin-top: 20px;
 }
 
@@ -64,7 +64,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 50%;
+  margin-bottom: 20vh;
   width: 100%;
 }
 
@@ -114,6 +114,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 15px;
   width: 100%;
 }
 
@@ -150,6 +151,7 @@ background-image: url('../assets/turing-logo.png')
 }
 
 .quick-contact p {
+  margin-bottom: 20px;
   color: #3AAFA9;
   font-size: 18px;
 }
@@ -231,10 +233,6 @@ background-image: url('../assets/turing-logo.png')
     font-size: 42px;
   }
 
-  .nav-logo {
-    margin-bottom: 85%;
-  }
-
   .david-logo {
     height: 160px;
     width: 150px;
@@ -242,10 +240,6 @@ background-image: url('../assets/turing-logo.png')
 
   h2 {
     font-size: 27px;
-  }
-
-  .nav-link-container {
-    margin-bottom: 75%;
   }
 
   .nav-link {
@@ -275,10 +269,6 @@ background-image: url('../assets/turing-logo.png')
     font-size: 35px;
   }
 
-  .nav-logo {
-    margin-bottom: 85%;
-  }
-
   .david-logo {
     height: 130px;
     width: 120px;
@@ -286,10 +276,6 @@ background-image: url('../assets/turing-logo.png')
 
   h2 {
     font-size: 22px;
-  }
-
-  .nav-link-container {
-    margin-bottom: 75%;
   }
 
   .nav-link {
