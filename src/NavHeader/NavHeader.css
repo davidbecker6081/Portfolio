@@ -16,8 +16,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   height: 100vh;
-  width: 25%;
+  position: fixed;
+  width: 22vw;
   background-color: #FEFFFF;
   box-shadow: 0px 1px 10px 3px rgba(23,37,42, 0.5);
   z-index: 9999;
@@ -28,18 +30,18 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 15vh;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .david-logo {
-  height: 150px;
-  width: 150px;
-  margin-bottom: 10px;
+  height: 6rem;
+  margin-bottom: 20px;
+  width: 6rem;
   background-image: url('../assets/DBlogo.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  box-shadow: 0px 0px 2px 0px rgba(23,37,42, 0.5);
 }
 
 h1,
@@ -50,12 +52,13 @@ h2 {
 }
 
 h1 {
-  font-size: 40px;
+  margin-bottom: 20px;
+  font-size: 3vw;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 1.8vw;
   font-weight: 400;
 }
 
@@ -64,7 +67,6 @@ h2 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 20vh;
   width: 100%;
 }
 
@@ -76,38 +78,30 @@ h2 {
   width: 100%;
   text-decoration: none;
   color: #3AAFA9;
-  font-size: 30px;
+  font-size: 2.2vw;
   letter-spacing: 1.1px;
 }
 
 .nav-link:hover {
-  border-right: 4px solid #2B7A78;
-  border-radius: 1px;
   color: #2B7A78;
-  font-size: 32px;
-  transition: 1.2s;
-  /*box-shadow: 0px 0px 4px 0px rgba(23,37,42, 0.5); */
+  font-size: 2.3vw;
+  transition: 1s;
 }
 
-.active {
+.active,
+.active.nav-link:hover {
   border-right: 4px solid #17252A;
   border-radius: 1px;
   color: #17252A;
-  font-size: 32px;
+  font-size: 2.3vw;
 }
-
-/*.current {
-  border-right: 4px solid #17252A;
-  border-radius: 1px;
-  color: #17252A;
-  font-size: 32px;
-}*/
 
 .quick-contact {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 30px;
   width: 60%;
 }
 
@@ -119,20 +113,16 @@ h2 {
   width: 100%;
 }
 
-.quick-contact p,
 .quick-contact a {
-  margin: 0 0 10px 0;
-  letter-spacing: 1.1px;
-}
-
-.quick-contact a {
-  height: 50px;
-  width: 50px;
+  height: 3.5vw;
+  margin-bottom: 10px;
+  width: 3.5vw;
   box-shadow: 0px 0px 5px 0px #FFF;
   text-decoration: none;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 2px;
 }
 
 .quick-contact a:nth-of-type(1) {
@@ -149,19 +139,20 @@ background-image: url('../assets/turing-logo.png')
 
 .quick-contact a:hover {
   opacity: 0.7;
-  transition: 1.2s;
+  transition: 1s;
   height: 51px;
   width: 51px;
   box-shadow: 0px 0px 4px 0px rgba(23,37,42, 0.5);
 }
 
 .quick-contact p {
-  margin-bottom: 20px;
+  margin: 0;
   color: #3AAFA9;
-  font-size: 18px;
+  font-size: 1.1vw;
+  letter-spacing: 1.1px;
 }
 
-@media screen and (min-width: 1651px) {
+/*@media screen and (min-width: 1651px) {
 
   h1 {
     font-size: 55px;
@@ -234,7 +225,7 @@ background-image: url('../assets/turing-logo.png')
 @media screen and (min-width: 1350px) and (max-width: 1660px) {
   /*1247px to 1016px*/
 
-  h1 {
+  /*h1 {
     font-size: 42px;
   }
 
@@ -270,8 +261,9 @@ background-image: url('../assets/turing-logo.png')
 @media screen and (min-width: 1000px) and (max-width: 1360px) {
   /*1016px to 750px*/
 
-  h1 {
-    font-size: 35px;
+  /*h1 {
+    font-size: 10px;
+    color: purple;
   }
 
   .david-logo {
@@ -301,4 +293,4 @@ background-image: url('../assets/turing-logo.png')
     font-size: 18px;
   }
 
-}
+}*/

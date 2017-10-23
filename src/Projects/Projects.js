@@ -16,7 +16,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<div className="projects-wrapper">
-				<h2>Code</h2>
+				<h2>Projects</h2>
 				<section className="projects-display">
 					{this.renderProjects()}
 				</section>
