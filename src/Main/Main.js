@@ -1,7 +1,6 @@
 import React from 'react';
 import './Main.css';
 import FadeIn from 'react-fade-in';
-// import { Link } from 'react-router-dom';
 
 const Main = () => {
 
