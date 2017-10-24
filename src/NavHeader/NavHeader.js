@@ -9,7 +9,7 @@ const NavHeader = ({ currentPage }) => {
 			<div className="nav-logo">
 				<h1>David Becker</h1>
 				<div className="david-logo" />
-				<h2>Software Developer</h2>
+				<h2>Front-End Developer</h2>
 			</div>
 			<div className="nav-link-container">
 				<NavLink exact to="/" className={'nav-link'}>

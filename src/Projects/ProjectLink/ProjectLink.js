@@ -1,6 +1,8 @@
 import React from 'react';
 import './ProjectLink.css';
 import FadeIn from 'react-fade-in';
+import ImageLoader from 'react-imageloader';
+
 // import { Link } from 'react-router-dom';
 
 //contains an image with an overlay with technologies and Date completed
@@ -14,26 +16,28 @@ const ProjectLink = ({
 	technologies,
 	testing,
 	dateCompleted,
+	liveLink,
+	about
 }) => {
-	const tech = technologies.map((tech, i) => <li key={i}>{tech}</li>);
-	const styles = {
-		backgroundImage: `url(${imageUrl})`
-	}
-
+	const tech = technologies.map((tech, i) => <span className="tech-used" key={i}>{tech}, </span>);
+	const live = liveLink ? liveLink : gitHub;
 	return (
 		<FadeIn>
 			<div className="project-link">
-				<article className="project-container" style={styles}>
+				<article className="project-container">
+					<ImageLoader className="project-image" src={imageUrl} />
 					<h3>{name}</h3>
-					<div className="info-overlay">
-						<h4>{name}</h4>
-						<a className="project-live-link" href={gitHub} target="_blank">GitHub</a>
-						<a className="project-live-link" href={gitHub} target="_blank">Live</a>
-						<div className="project-tech-container">
-							<div className="project-tech">
-								<ul>{tech}</ul>
-								<p>{testing}</p>
-							</div>
+					<a className="project-live-link" href={gitHub} target="_blank">
+						GitHub
+					</a>
+					<a className="project-live-link" href={live} target="_blank">
+						Live
+					</a>
+					<p className="about">{about}</p>
+					<div className="project-tech-container">
+						<div className="project-tech">
+							<p>Tech used: {tech}</p>
+							<p>Testing done with: <span className="tech-used">{testing}</span></p>
 						</div>
 					</div>
 				</article>

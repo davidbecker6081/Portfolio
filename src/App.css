@@ -6,8 +6,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
-  width: 75%;
+  margin-left: 22vw;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0 4rem;
+  overflow: auto;
   background-color: #3AAFA9;
   color: #FEFFFF;
   font-family: 'Open Sans', sans-serif;

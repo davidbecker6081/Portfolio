@@ -1,7 +1,6 @@
 import React from 'react';
 import './Main.css';
 import FadeIn from 'react-fade-in';
-// import { Link } from 'react-router-dom';
 
 const Main = () => {
 
@@ -9,11 +8,11 @@ const Main = () => {
 		<FadeIn>
 			<section className="main-container">
 				<div className="main-txt">
-					<p className="main-heading">WELCOME TO MY PORTFOLIO WEBSITE.</p>
-					<p>Take a look around.</p>
-					<p>Check out some of my projects.</p>
-					<p>Learn about what I do outside of development.</p>
-					<p>Contact me.</p>
+					<p className="main-heading">DAVID BECKER.</p>
+					<p>Front-End <span className="main-highlight">  Developer.</span></p>
+					<p><span className="main-highlight">Climber.</span> Designer.</p>
+					<p>Architecture Enthusiast.<span className="main-highlight"> Musician.</span></p>
+					<p><span className="main-highlight">Excited to learn.</span></p>
 				</div>
 				<div src="/" alt="image here" className="main-photo"/>
 			</section>
