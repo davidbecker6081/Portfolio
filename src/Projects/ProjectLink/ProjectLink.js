@@ -3,12 +3,6 @@ import './ProjectLink.css';
 import FadeIn from 'react-fade-in';
 import ImageLoader from 'react-imageloader';
 
-// import { Link } from 'react-router-dom';
-
-//contains an image with an overlay with technologies and Date completed
-//image has title bar on bottom 3rd
-//Link to main page GitHub
-
 const ProjectLink = ({
 	name,
 	gitHub,
@@ -30,9 +24,9 @@ const ProjectLink = ({
 					<a className="project-live-link" href={gitHub} target="_blank">
 						GitHub
 					</a>
-					<a className="project-live-link" href={live} target="_blank">
+					{liveLink !== '' && <a className="project-live-link" href={live} target="_blank">
 						Live
-					</a>
+					</a>}
 					<p className="about">{about}</p>
 					<div className="project-tech-container">
 						<div className="project-tech">

@@ -12,7 +12,6 @@ const Main = () => {
 					<p>Front-End <span className="main-highlight">  Developer.</span></p>
 					<p><span className="main-highlight">Design Thinker.</span> Climber.</p>
 					<p>Architecture Enthusiast.<span className="main-highlight"> Musician.</span></p>
-					<p><span className="main-highlight">Excited to learn.</span></p>
 				</div>
 				<div src="/" alt="image here" className="main-photo"/>
 			</section>

@@ -90,6 +90,9 @@ h2 {
 
 .active,
 .active.nav-link:hover {
+  padding: 5px 0;
+  width: 99.5%;
+  background: linear-gradient(90deg, #FEFFFF, rgba(14, 23, 26, 0.15));
   border-right: 4px solid #17252A;
   border-radius: 1px;
   color: #17252A;
@@ -102,7 +105,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 30px;
-  width: 60%;
 }
 
 .quick-contact-links {
@@ -110,12 +112,12 @@ h2 {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
-  width: 100%;
 }
 
 .quick-contact a {
   height: 3.5vw;
   margin-bottom: 10px;
+  margin-right: 1vw;
   width: 3.5vw;
   box-shadow: 0px 0px 5px 0px #FFF;
   text-decoration: none;
@@ -140,8 +142,6 @@ background-image: url('../assets/turing-logo.png')
 .quick-contact a:hover {
   opacity: 0.7;
   transition: 1s;
-  height: 51px;
-  width: 51px;
   box-shadow: 0px 0px 4px 0px rgba(23,37,42, 0.5);
 }
 

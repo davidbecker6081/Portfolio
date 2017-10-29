@@ -38,7 +38,7 @@
   height: 24vw;
   margin-bottom: 20px;
   width: 40vw;
-  border: 30px solid #3AAFA9;
+  border: 5px solid #3AAFA9;
   border-radius: 2px;
 }
 
@@ -63,15 +63,11 @@
   color: #2B7A78;
 }
 
-/*.project-container:hover {
-  background-color: #FEFFFF;
-  color: #3AAFA9;
-}*/
-
 .about {
   color: #3AAFA9;
-  word-spacing: 6px;
+  font-size: 1.3vw;
   line-height: 1.5;
+  word-spacing: 6px;
 }
 
 .project-container h3,
@@ -92,7 +88,7 @@
   justify-content: center;
   margin-bottom: 15px;
   width: 100%;
-  font-size: 15px;
+  font-size: 1.5vw;
   font-weight: 400;
 }
 
