@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import FadeIn from 'react-fade-in';
+import resume from '../assets/resume.pdf';
 
 const Contact = () => {
 	return (
@@ -13,6 +14,7 @@ const Contact = () => {
 					<textarea name="message" placeholder="Your message" />
 					<input type="submit" value="Send" />
 				</form>
+				<a className="resume" href={resume} download>Download Resume.</a>
 			</section>
 		</FadeIn>
 	);

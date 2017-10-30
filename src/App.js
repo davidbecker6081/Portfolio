@@ -5,7 +5,6 @@ import NavHeader from './NavHeader/NavHeader';
 import Main from './Main/Main';
 import Projects from './Projects/Projects';
 import AboutMe from './AboutMe/AboutMe';
-import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 
 class App extends Component {
