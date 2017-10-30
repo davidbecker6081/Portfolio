@@ -90,7 +90,9 @@ h2 {
 
 .active,
 .active.nav-link:hover {
-  border-right: 4px solid #17252A;
+  padding: 5px 0;
+  width: 100%;
+  background: linear-gradient(90deg, #FEFFFF, rgba(14, 23, 26, 0.15));
   border-radius: 1px;
   color: #17252A;
   font-size: 2.3vw;
@@ -102,7 +104,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 30px;
-  width: 60%;
 }
 
 .quick-contact-links {
@@ -140,8 +141,6 @@ background-image: url('../assets/turing-logo.png')
 .quick-contact a:hover {
   opacity: 0.7;
   transition: 1s;
-  height: 51px;
-  width: 51px;
   box-shadow: 0px 0px 4px 0px rgba(23,37,42, 0.5);
 }
 
@@ -152,145 +151,80 @@ background-image: url('../assets/turing-logo.png')
   letter-spacing: 1.1px;
 }
 
-/*@media screen and (min-width: 1651px) {
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    position: fixed;
+    width: 100vw;
+  }
+
+  .nav-logo {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+    width: 100%;
+  }
 
   h1 {
-    font-size: 55px;
-  }
-
-  .david-logo {
-    height: 190px;
-    width: 180px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    font-size: 6vw;
   }
 
   h2 {
-    font-size: 30px;
+    margin-top: 3px;
+    font-size: 4vw;
+  }
+
+  .david-logo {
+    display: none;
+  }
+
+  .nav-link-container {
+    width: 50%;
   }
 
   .nav-link {
-    margin-bottom: 30px;
-    font-size: 45px;
+    margin-bottom: 15px;
+    width: 51%;
+    font-size: 3.5vw;
   }
 
   .nav-link:hover {
-    font-size: 47px;
+    font-size: 3.5vw;
+  }
+
+  .active,
+  .active.nav-link:hover {
+    width: 50%;
+    background: linear-gradient(180deg, #FEFFFF, rgba(14, 23, 26, 0.15));
+    border-right: none;
+    border-radius: 2px;
+    font-size: 3.1vw;
+  }
+
+  .quick-contact {
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 50%;
+  }
+
+  .quick-contact-links {
+    justify-content: space-around;
+    margin-bottom: 0px;
+    width: 100%;
   }
 
   .quick-contact a {
-    height: 70px;
-    width: 70px;
+    height: 10vw;
+    margin-bottom: 10px;
+    width: 10vw;
   }
 
   .quick-contact p {
-    font-size: 25px;
+    display: none;
   }
-
 }
-
-@media screen and (max-width: 1650px) {
-
-  h1 {
-    font-size: 47px;
-  }
-
-  .david-logo {
-    height: 180px;
-    width: 170px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  .nav-link {
-    margin-bottom: 30px;
-    font-size: 40px;
-  }
-
-  .nav-link:hover {
-    font-size: 42px;
-  }
-
-  .quick-contact a {
-    height: 60px;
-    width: 60px;
-  }
-
-  .quick-contact p {
-    font-size: 25px;
-  }
-
-}
-
-@media screen and (min-width: 1350px) and (max-width: 1660px) {
-  /*1247px to 1016px*/
-
-  /*h1 {
-    font-size: 42px;
-  }
-
-  .david-logo {
-    height: 160px;
-    width: 150px;
-  }
-
-  h2 {
-    font-size: 27px;
-  }
-
-  .nav-link {
-    margin-bottom: 30px;
-    font-size: 36px;
-  }
-
-  .nav-link:hover {
-    font-size: 38px;
-  }
-
-  .quick-contact a {
-    height: 50px;
-    width: 50px;
-  }
-
-  .quick-contact p {
-    font-size: 20px;
-  }
-
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1360px) {
-  /*1016px to 750px*/
-
-  /*h1 {
-    font-size: 10px;
-    color: purple;
-  }
-
-  .david-logo {
-    height: 130px;
-    width: 120px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  .nav-link {
-    margin-bottom: 30px;
-    font-size: 30px;
-  }
-
-  .nav-link:hover {
-    font-size: 32px;
-  }
-
-  .quick-contact a {
-    height: 40px;
-    width: 40px;
-  }
-
-  .quick-contact p {
-    font-size: 18px;
-  }
-
-}*/

@@ -68,3 +68,32 @@ p {
   font-size: 3vw;
   font-weight: 300;
 }
+
+@media screen and (max-width: 500px) {
+  .main-container {
+    justify-content: flex-start;
+    height: 40vh;
+  }
+
+  .main-heading {
+    font-size: 5vw;
+  }
+
+  .main-txt {
+    font-size: 4vw
+  }
+
+  .main-txt p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-highlight {
+    font-size: 4vw;
+  }
+
+  .main-txt p:nth-of-type(3) {
+    flex-direction: column-reverse;
+  }
+}

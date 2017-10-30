@@ -12,7 +12,7 @@
   font-family: 'Raleway', sans-serif;
   margin: 30px 0;
   color: #17252A;
-  font-size: 50px;
+  font-size: 5vw;
 }
 
 .projects-display {
@@ -21,4 +21,16 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .projects-wrapper {
+    position: relative;
+    top: 13vh;
+  }
+
+  .projects-wrapper h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
 }
