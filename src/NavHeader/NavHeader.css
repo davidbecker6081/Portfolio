@@ -112,6 +112,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .quick-contact a {
@@ -156,7 +157,7 @@ background-image: url('../assets/turing-logo.png')
   header {
     flex-direction: column;
     justify-content: center;
-    height: 25vh;
+    height: auto;
     position: fixed;
     width: 100vw;
   }
@@ -191,6 +192,10 @@ background-image: url('../assets/turing-logo.png')
   .nav-link {
     margin-bottom: 15px;
     width: 51%;
+    font-size: 3.5vw;
+  }
+
+  .nav-link:hover {
     font-size: 3.5vw;
   }
 

@@ -13,11 +13,10 @@ const Contact = () => {
 					<textarea name="message" placeholder="Your message" />
 					<input type="submit" value="Send" />
 				</form>
-				<a className="resume" href="../assets/ResumeDavidBecker2web.pdf">Resume</a>
-				<p className="email-contact">david@beckersite.com</p>
 			</section>
 		</FadeIn>
 	);
 };
 
 export default Contact;
+// <a className="resume" href="../assets/ResumeDavidBecker2web.pdf">Resume</a>

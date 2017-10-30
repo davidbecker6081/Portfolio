@@ -75,21 +75,24 @@ input[type="submit"]:hover {
   transition: 0.5s;
 }
 
-.email-contact {
-  display: none;
-}
-
 @media screen and (max-width: 500px) {
   .contact-form-container {
-    width: 75vw;
+    height: 60vh;
+    width: 85vw;
+  }
+
+  .contact-form-container h2 {
+    font-size: 6vw;
   }
 
   input[type="submit"] {
     padding: 5px;
+    font-size: 3vw;
   }
 
-  .email-contact {
-    display: block;
+  input,
+  textarea {
+    width: 100%;
     font-size: 4vw;
   }
 }

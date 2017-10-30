@@ -77,8 +77,8 @@
 
 .project-tech {
   margin-left: 10px;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 1.5vw;
   text-align: left;
 }
 
@@ -88,10 +88,42 @@
   justify-content: center;
   margin-bottom: 15px;
   width: 100%;
-  font-size: 1.5vw;
   font-weight: 400;
 }
 
 .tech-used {
   color: #17252A;
+}
+
+@media screen and (max-width: 500px) {
+  .project-link {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .project-image img {
+    height: 40vw;
+    width: 60vw;
+  }
+
+  .project-container h3 {
+    font-size: 6vw;
+  }
+
+  .project-live-link {
+    font-size: 3.5vw;
+  }
+
+  .project-live-link:hover {
+    font-size: 3.5vw;
+  }
+
+  .about {
+    font-size: 3vw;
+  }
+
+  .project-tech {
+    margin-left: 0;
+    font-size: 3vw;
+  }
 }
