@@ -74,3 +74,22 @@ input[type="submit"]:hover {
   font-size: 2.05vw;
   transition: 0.5s;
 }
+
+.email-contact {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-form-container {
+    width: 75vw;
+  }
+
+  input[type="submit"] {
+    padding: 5px;
+  }
+
+  .email-contact {
+    display: block;
+    font-size: 4vw;
+  }
+}

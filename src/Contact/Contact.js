@@ -14,6 +14,7 @@ const Contact = () => {
 					<input type="submit" value="Send" />
 				</form>
 				<a className="resume" href="../assets/ResumeDavidBecker2web.pdf">Resume</a>
+				<p className="email-contact">david@beckersite.com</p>
 			</section>
 		</FadeIn>
 	);
