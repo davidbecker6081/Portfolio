@@ -1,14 +1,14 @@
 export const getProjectData = () => {
 	return [
 		{
-			name: 'ConnectME',
-			about: 'The goal of ConnectME was to create a platform to search friends in a particular location and then message one particular friend or a group of friends in that location. A user should be able to login and logout, send and store messages to and from friends, and eventually, store groups of friends in particular locations. In this project, I implemented Firebase OAuth and database, used the Facebook Graph API, and tested with Enzyme/Jest. This was a 2-week personal project.',
-			gitHub: 'https://github.com/davidbecker6081/ConnectME',
+			name: 'MovieTracker',
+			about: 'The goal of MovieTracker was to create a web application that allows users to look at information for newly released movies, create an account to save favorites, and login or logout from that account. This project is working off the The Movie DB API (https://www.themoviedb.org/documentation/api). User interface design came with challenges such as what to do if a user was not logged in and tried to add a favorite? This was a week and a half long team project. Credits: Margo Schaedel, Laura Caroselli.',
+			gitHub: 'https://github.com/davidbecker6081/movie-tracker',
 			liveLink: '',
-			imageUrl: 'https://i.imgur.com/E4aPHt0.png',
-			technologies: ['React', 'Redux', 'React Router', 'Firebase OAuth/Database'],
+			imageUrl: 'https://i.imgur.com/EQ0uUzp.png',
+			technologies: ['React', 'Redux', 'React Router', 'PostgreSQL', 'Knex', 'CSS Grid'],
 			testing: 'Enzyme/Jest, fetch-mock',
-			dateCompleted: 'September 20, 2017',
+			dateCompleted: 'September 7, 2017',
 		},
 		{
 			name: 'BYOB',
@@ -19,16 +19,6 @@ export const getProjectData = () => {
 			technologies: ['Javascript', 'JQuery', 'PostgreSQL', 'Express', 'Knex'],
 			testing: 'Mocha/Chai, chai-http',
 			dateCompleted: 'October 6, 2017',
-		},
-		{
-			name: 'MovieTracker',
-			about: 'The goal of MovieTracker was to create a web application that allows users to look at information for newly released movies, create an account to save favorites, and login or logout from that account. This project is working off the The Movie DB API (https://www.themoviedb.org/documentation/api). User interface design came with challenges such as what to do if a user was not logged in and tried to add a favorite? This was a week and a half long team project. Credits: Margo Schaedel, Laura Caroselli.',
-			gitHub: 'https://github.com/davidbecker6081/movie-tracker',
-			liveLink: '',
-			imageUrl: 'https://i.imgur.com/EQ0uUzp.png',
-			technologies: ['React', 'Redux', 'React Router', 'PostgreSQL', 'Knex', 'CSS Grid'],
-			testing: 'Enzyme/Jest, fetch-mock',
-			dateCompleted: 'September 7, 2017',
 		},
 		{
 			name: 'SWAPI-Box',
@@ -72,3 +62,16 @@ export const getProjectData = () => {
 		}
 	];
 };
+
+//Extras
+
+// {
+// 	name: 'ConnectME',
+// 	about: 'The goal of ConnectME was to create a platform to search friends in a particular location and then message one particular friend or a group of friends in that location. A user should be able to login and logout, send and store messages to and from friends, and eventually, store groups of friends in particular locations. In this project, I implemented Firebase OAuth and database, used the Facebook Graph API, and tested with Enzyme/Jest. This was a 2-week personal project.',
+// 	gitHub: 'https://github.com/davidbecker6081/ConnectME',
+// 	liveLink: '',
+// 	imageUrl: 'https://i.imgur.com/E4aPHt0.png',
+// 	technologies: ['React', 'Redux', 'React Router', 'Firebase OAuth/Database'],
+// 	testing: 'Enzyme/Jest, fetch-mock',
+// 	dateCompleted: 'September 20, 2017',
+// },

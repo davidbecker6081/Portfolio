@@ -21,6 +21,5 @@
     "react-fade-in": "^0.1.5",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
-  },
-  "homepage" : "http://davidbecker.github.io/portfolio"
+  }
 }

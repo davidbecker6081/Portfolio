@@ -21,4 +21,3 @@ const Contact = () => {
 };
 
 export default Contact;
-// <a className="resume" href="../assets/ResumeDavidBecker2web.pdf">Resume</a>
