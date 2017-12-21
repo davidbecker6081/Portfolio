@@ -1,6 +1,16 @@
 export const getProjectData = () => {
 	return [
 		{
+			name: 'GraffitiGraffix',
+			about: 'The goal of Graffiti Graffix was to build a social media platform for graffiti artists. We hope to connect graffiti artists to one another and create a stronger community surrounding this art form. This web application allows users to create a profile and add images of their graffiti work, follow other graffiti artists, and comment on other user\'s images. A user can search and sort through user profiles alphabetically, by newest artists, and by popularity. This was a project developed for Module 4 in the Front-End Engineering program at Turing School for Software and Design. Credits: Travis Rollins, Tyler Hevia.',
+			gitHub: 'https://github.com/davidbecker6081/GraffitiGraffix',
+			liveLink: '',
+			imageUrl: 'https://i.imgur.com/wDWynpI.gif',
+			technologies: ['React', 'Redux', 'React Router', 'Node.js', 'Express.js', 'PostgreSQL', 'Knex', 'Firebase', 'CircleCI'],
+			testing: 'Enzyme/Jest, fetch-mock, Mocha/Chai/Chai-http',
+			dateCompleted: 'In Progress',
+		},
+		{
 			name: 'MovieTracker',
 			about: 'The goal of MovieTracker was to create a web application that allows users to look at information for newly released movies, create an account to save favorites, and login or logout from that account. This project is working off the The Movie DB API (https://www.themoviedb.org/documentation/api). User interface design came with challenges such as what to do if a user was not logged in and tried to add a favorite? This was a week and a half long team project. Credits: Margo Schaedel, Laura Caroselli.',
 			gitHub: 'https://github.com/davidbecker6081/movie-tracker',
