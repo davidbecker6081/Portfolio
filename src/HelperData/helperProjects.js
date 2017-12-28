@@ -4,7 +4,7 @@ export const getProjectData = () => {
 			name: 'GraffitiGraffix',
 			about: 'The goal of Graffiti Graffix was to build a social media platform for graffiti artists. We hope to connect graffiti artists to one another and create a stronger community surrounding this art form. This web application allows users to create a profile and add images of their graffiti work, follow other graffiti artists, and comment on other user\'s images. A user can search and sort through user profiles alphabetically, by newest artists, and by popularity. This was a project developed for Module 4 in the Front-End Engineering program at Turing School for Software and Design. Credits: Travis Rollins, Tyler Hevia.',
 			gitHub: 'https://github.com/davidbecker6081/GraffitiGraffix',
-			liveLink: '',
+			liveLink: 'https://graffiti-graffix.herokuapp.com/',
 			imageUrl: 'https://i.imgur.com/wDWynpI.gif',
 			technologies: ['React', 'Redux', 'React Router', 'Node.js', 'Express.js', 'PostgreSQL', 'Knex', 'Firebase', 'CircleCI'],
 			testing: 'Enzyme/Jest, fetch-mock, Mocha/Chai/Chai-http',
